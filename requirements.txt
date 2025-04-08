@@ -1,0 +1,6 @@
+Flask
+google-generativeai
+requests
+beautifulsoup4
+fake-useragent
+uagents
