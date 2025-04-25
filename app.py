@@ -21,12 +21,12 @@ app = Flask(__name__)
 app.secret_key = '77e48154dac6faee1c8847522388b0a447da9dcfa0563be9'  # Important for session security
 
 # API Configuration
-GOOGLE_API_KEY = "AIzaSyBeHVRjuQh9AkpLfodqnZ4LsvxAAXit--I"
-WEATHER_API_KEY = "e848ed4206fa728c556d2b32e053b699"
-AMADEUS_API_KEY = "PPBABDjIpw8cYouRRgMGAJ8FtTIpMlto"
-AMADEUS_API_SECRET = "gZ3olFrJc6l1G2Ar"  # You need to add this
+GOOGLE_API_KEY = "insert google api key here"
+WEATHER_API_KEY = "insert weather api key here"
+AMADEUS_API_KEY = "insert amadeus api key here"
+AMADEUS_API_SECRET = "insert amadeus api secret key here"  # You need to add this
 # ADD ZOMATO CONFIG HERE ▼
-YELP_API_KEY = "your_yelp_key_here"
+YELP_API_KEY = "insert yelp api key here"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Fetch.ai wallet address (for hotel price alerts)
